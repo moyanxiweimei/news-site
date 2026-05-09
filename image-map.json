@@ -1,0 +1,13 @@
+{
+  "real_images": {
+    "finance": {
+      "2": "https://moyanxiweimei-1429576281.cos.ap-guangzhou.myqcloud.com/images/bmw_800.jpg"
+    },
+    "tech": {
+      "2": "https://moyanxiweimei-1429576281.cos.ap-guangzhou.myqcloud.com/images/robot_800.jpg"
+    },
+    "aerospace": {
+      "3": "https://moyanxiweimei-1429576281.cos.ap-guangzhou.myqcloud.com/images/moon_800.jpg"
+    }
+  }
+}

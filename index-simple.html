@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日资讯 - Daily News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">📰 今日资讯</div>
+            <div class="nav-links">
+                <a href="#hero" class="active">首页</a>
+                <a href="#finance">财经</a>
+                <a href="#tech">科技</a>
+                <a href="#medical">医疗</a>
+                <a href="#education">教育</a>
+                <a href="#aerospace">航天</a>
+                <a href="#products">产品</a>
+                <a href="#auto">出行</a>
+            </div>
+            <button class="theme-toggle" id="themeToggle">☀️</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">实时更新</div>
+            <h1 class="hero-title">
+                <span class="gradient-text">洞察行业脉搏</span><br>
+                掌握全球热点
+            </h1>
+            <p class="hero-subtitle">2025年5月8日 · 9大行业精选资讯</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">9</span>
+                    <span class="stat-label">行业分类</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">45+</span>
+                    <span class="stat-label">精选资讯</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Sections will be loaded by JS -->
+    <div id="news-container"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">📰 今日资讯</div>
+            <p class="footer-desc">精选全球热点，洞察行业趋势</p>
+            <div class="footer-divider"></div>
+            <p class="footer-copyright">数据来源：36氪、少数派、澎湃新闻等 | 仅供个人学习参考</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

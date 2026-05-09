@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        :root { --bg: #f5f5f7; --text: #1d1d1f; }
+        [data-theme="dark"] { --bg: #0a0a0f; --text: #ffffff; }
+        body { background: var(--bg); color: var(--text); padding: 50px; transition: all 0.5s; }
+        button { font-size: 24px; padding: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Theme Toggle Test</h1>
+    <button id="toggle">🌙</button>
+    <p>Current theme: <span id="status">light</span></p>
+    
+    <script>
+        document.getElementById('toggle').addEventListener('click', function() {
+            const html = document.documentElement;
+            const current = html.getAttribute('data-theme') || 'light';
+            const newTheme = current === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            this.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+            document.getElementById('status').textContent = newTheme;
+            console.log('Theme changed to:', newTheme);
+        });
+    </script>
+</body>
+</html>
