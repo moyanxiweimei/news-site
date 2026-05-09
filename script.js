@@ -108,16 +108,14 @@ const sectionGradients = {
 
 function renderSection(gridId, items) {
   const grid = document.getElementById(gridId);
-  if (!grid || !items || items.length === 0) return;
+  if (!grid || !items || !items.length === 0) return;
   
   const theme = sectionGradients[gridId] || { gradient: 'linear-gradient(135deg, #00d4ff, #7c3aed)', emoji: '📰' };
   
   grid.innerHTML = items.map((item, index) => `
     <article class="news-card ${index === 0 ? 'featured' : ''}" onclick="openModal('${gridId}', ${index})">
-      <div class="card-image-wrapper" style="background: ${theme.gradient}">
-        <div class="card-image-placeholder">
-          <span class="card-emoji">${theme.emoji}</span>
-        </div>
+      <div class="card-image-wrapper">
+        ${item.image ? `<img src="${item.image}" alt="${item.title}" class="card-image" loading="lazy">` : `<div class="card-image-placeholder" style="background: ${theme.gradient}"><span class="card-emoji">${theme.emoji}</span></div>`}
         ${item.badge ? `<div class="card-badge ${item.badge === '热点' || item.badge === '重磅' ? 'hot' : item.badge === '融资' || item.badge === '免签' ? 'new' : ''}">${item.badge}</div>` : ''}
       </div>
       <div class="card-content">
