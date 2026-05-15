@@ -45,3 +45,72 @@ HTML dates updated
 🔄 Busting cache...
 
 🚀 Committing and pushing...
+[main 80c0699] 📰 Auto-update: 2026-05-14 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-3435.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 323 insertions(+), 61 deletions(-)
+ create mode 100755 update-news.sh
+ create mode 100644 update.log
+To https://github.com/moyanxiweimei/news-site.git
+   356a3bb..80c0699  main -> main
+
+✅ Done! Updated at 08:00:09
+🌐 Site: https://moyanxiweimei.github.io/news-site/
+=== 📰 Daily News Update - 2026-05-15 08:00 ===
+Today: 2026年5月15日
+
+📡 Fetching news from IT之家...
+Categorized 40 news items
+  finance: 4 items
+  tech: 22 items
+  medical: 1 items
+  education: 1 items
+  aerospace: 2 items
+  products: 7 items
+  auto: 2 items
+  vc: 1 items
+
+📝 Updating index.html...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+  ⏭ finance_1 (no image available)
+  ⏭ finance_2 (no image available)
+  ⏭ finance_3 (no image available)
+  ⏭ tech_1 (no image available)
+  ⏭ tech_2 (no image available)
+  ⏭ tech_3 (no image available)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ⏭ education_1 (no image available)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ⏭ aerospace_1 (no image available)
+  ⏭ aerospace_2 (no image available)
+  ⏭ aerospace_3 (no image available)
+  ⏭ products_1 (no image available)
+  ⏭ products_2 (no image available)
+  ⏭ products_3 (no image available)
+  ⏭ auto_1 (no image available)
+  ⏭ auto_2 (no image available)
+  ⏭ auto_3 (no image available)
+  ⏭ vc_1 (no image available)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🚀 Committing and pushing...
