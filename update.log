@@ -114,3 +114,77 @@ HTML dates updated
 🔄 Busting cache...
 
 🚀 Committing and pushing...
+[main d36ee50] 📰 Auto-update: 2026-05-15 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-3451.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 11 files changed, 130 insertions(+), 61 deletions(-)
+To https://github.com/moyanxiweimei/news-site.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/moyanxiweimei/news-site.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Push failed
+
+✅ Done! Updated at 08:00:05
+🌐 Site: https://moyanxiweimei.github.io/news-site/
+=== 📰 Daily News Update - 2026-05-16 08:00 ===
+Today: 2026年5月16日
+
+📡 Fetching news from IT之家...
+Categorized 40 news items
+  finance: 4 items
+  tech: 26 items
+  medical: 0 items
+  education: 1 items
+  aerospace: 0 items
+  products: 5 items
+  auto: 4 items
+  vc: 0 items
+
+📝 Updating index.html...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+  ⏭ finance_1 (no image available)
+  ⏭ finance_2 (no image available)
+  ⏭ finance_3 (no image available)
+  ⏭ tech_1 (no image available)
+  ⏭ tech_2 (no image available)
+  ⏭ tech_3 (no image available)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ⏭ education_1 (no image available)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ⏭ aerospace_1 (no image available)
+  ⏭ aerospace_2 (no image available)
+  ⏭ aerospace_3 (no image available)
+  ⏭ products_1 (no image available)
+  ⏭ products_2 (no image available)
+  ⏭ products_3 (no image available)
+  ⏭ auto_1 (no image available)
+  ⏭ auto_2 (no image available)
+  ⏭ auto_3 (no image available)
+  ⏭ vc_1 (no image available)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🚀 Committing and pushing...
