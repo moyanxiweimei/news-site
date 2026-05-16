@@ -45,8 +45,8 @@ for item in root.findall('.//item'):
     pubDate = item.find('pubDate')
     
     if title is not None and desc is not None:
-        # Extract image from description
-        img_match = re.search(r'src="(https?://[^"]+\.(?:jpg|jpeg|png))"', desc.text or '')
+        # Extract image from description (handle URLs with query params like ?x-bce-process=...)
+        img_match = re.search(r'src="(https?://[^"]+\.(?:jpg|jpeg|png)(?:\?[^"]*)?)"', desc.text or '')
         img_url = img_match.group(1) if img_match else None
         
         # Clean description (remove HTML)
@@ -202,6 +202,39 @@ echo ""
 echo "🔄 Busting cache..."
 # Update image version
 sed -i '' 's/\.jpg?v=[0-9]*/.jpg?v='"$(date +%s)"'/g' index.html
+
+# Check images - report failures
+echo ""
+echo "🔍 Checking images..."
+python3 << 'PYTHON'
+import os
+
+IMGDIR = os.path.expanduser("~/.openclaw/workspace/news-site/images")
+
+# Categories and their expected images
+cat_map = {
+    'finance': ['finance_1', 'finance_2', 'finance_3'],
+    'tech': ['tech_1', 'tech_2', 'tech_3'],
+    'medical': ['medical_1', 'medical_2', 'medical_3'],
+    'education': ['education_1', 'education_2', 'education_3'],
+    'aerospace': ['aerospace_1', 'aerospace_2', 'aerospace_3'],
+    'products': ['products_1', 'products_2', 'products_3'],
+    'auto': ['auto_1', 'auto_2', 'auto_3'],
+    'vc': ['vc_1', 'vc_2', 'vc_3']
+}
+
+missing = []
+for cat, img_names in cat_map.items():
+    for img_name in img_names:
+        path = os.path.join(IMGDIR, f"{img_name}.jpg")
+        if not os.path.exists(path) or os.path.getsize(path) < 5000:
+            missing.append(img_name)
+
+if missing:
+    print(f"⚠️ Missing or too-small images ({len(missing)}): {', '.join(missing)}")
+else:
+    print("✅ All images present and valid")
+PYTHON
 
 # Commit and push
 echo ""
