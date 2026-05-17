@@ -188,3 +188,73 @@ HTML dates updated
 🔄 Busting cache...
 
 🚀 Committing and pushing...
+[main 4d92a23] 📰 Auto-update: 2026-05-16 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-3497.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 135 insertions(+), 61 deletions(-)
+To https://github.com/moyanxiweimei/news-site.git
+   cc16f6c..4d92a23  main -> main
+
+✅ Done! Updated at 08:00:05
+🌐 Site: https://moyanxiweimei.github.io/news-site/
+=== 📰 Daily News Update - 2026-05-17 08:00 ===
+Today: 2026年5月17日
+
+📡 Fetching news from IT之家...
+Categorized 40 news items
+  finance: 7 items
+  tech: 17 items
+  medical: 0 items
+  education: 0 items
+  aerospace: 0 items
+  products: 11 items
+  auto: 4 items
+  vc: 1 items
+
+📝 Updating index.html...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+  ✓ finance_1.jpg (from IT之家)
+  ✓ finance_2.jpg (from IT之家)
+  ⏭ finance_3 (no image available)
+  ✓ tech_1.jpg (from IT之家)
+  ✓ tech_2.jpg (from IT之家)
+  ✓ tech_3.jpg (from IT之家)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ⏭ education_1 (no image available)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ⏭ aerospace_1 (no image available)
+  ⏭ aerospace_2 (no image available)
+  ⏭ aerospace_3 (no image available)
+  ✓ products_1.jpg (from IT之家)
+  ✓ products_2.jpg (from IT之家)
+  ✓ products_3.jpg (from IT之家)
+  ✓ auto_1.jpg (from IT之家)
+  ✓ auto_2.jpg (from IT之家)
+  ✓ auto_3.jpg (from IT之家)
+  ✓ vc_1.jpg (from IT之家)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🔍 Checking images...
+✅ All images present and valid
+
+🚀 Committing and pushing...
