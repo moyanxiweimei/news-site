@@ -538,3 +538,82 @@ HTML dates updated
 ✅ All images present and valid
 
 🚀 Committing and pushing...
+[main 0506c80] 📰 Auto-update: 2026-05-21 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-3702.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 32 files changed, 144 insertions(+), 15 deletions(-)
+ create mode 100644 images/aerospace_2_tmp.jpg
+ create mode 100644 images/download_images.sh
+ create mode 100644 images/education_1_tmp.jpg
+ create mode 100644 images/education_3_tmp.jpg
+ create mode 100644 images/medical_2_tmp.jpg
+ create mode 100644 images/medical_3_tmp.jpg
+ create mode 100644 images/search_images.scpt
+ create mode 100644 images/test_http.jpg
+ create mode 100644 images/vc_2_tmp.jpg
+=== 📰 Daily News Update - 2026-05-21 08:00 ===
+Today: 2026年5月21日
+
+📡 Fetching news from IT之家...
+Categorized 40 news items
+  finance: 9 items
+  tech: 21 items
+  medical: 0 items
+  education: 1 items
+  aerospace: 1 items
+  products: 4 items
+  auto: 3 items
+  vc: 1 items
+
+📝 Updating index.html...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+fatal: unable to access 'https://github.com/moyanxiweimei/news-site.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443 
+Push failed
+
+✅ Done! Updated at 08:00:06
+🌐 Site: https://moyanxiweimei.github.io/news-site/
+  ✓ finance_1.jpg (from IT之家)
+  ✓ finance_2.jpg (from IT之家)
+  ⏭ finance_3 (no image available)
+  ✓ tech_1.jpg (from IT之家)
+  ✓ tech_2.jpg (from IT之家)
+  ✓ tech_3.jpg (from IT之家)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ✓ education_1.jpg (from IT之家)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ✓ aerospace_1.jpg (from IT之家)
+  ⏭ aerospace_2 (no image available)
+  ⏭ aerospace_3 (no image available)
+  ✓ products_1.jpg (from IT之家)
+  ✓ products_2.jpg (from IT之家)
+  ✓ products_3.jpg (from IT之家)
+  ✓ auto_1.jpg (from IT之家)
+  ✓ auto_2.jpg (from IT之家)
+  ✓ auto_3.jpg (from IT之家)
+  ✓ vc_1.jpg (from IT之家)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🔍 Checking images...
+✅ All images present and valid
+
+🚀 Committing and pushing...
