@@ -488,3 +488,53 @@ Push failed
 
 ✅ Done! Updated at 08:00:10
 🌐 Site: https://moyanxiweimei.github.io/news-site/
+=== 📰 Daily News Update - 2026-05-21 08:00 ===
+Today: 2026年5月21日
+
+📡 Fetching news from IT之家...
+Categorized 40 news items
+  finance: 9 items
+  tech: 21 items
+  medical: 0 items
+  education: 1 items
+  aerospace: 1 items
+  products: 4 items
+  auto: 3 items
+  vc: 1 items
+
+📝 Updating index.html...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+  ✓ finance_1.jpg (from IT之家)
+  ✓ finance_2.jpg (from IT之家)
+  ⏭ finance_3 (no image available)
+  ✓ tech_1.jpg (from IT之家)
+  ✓ tech_2.jpg (from IT之家)
+  ✓ tech_3.jpg (from IT之家)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ✓ education_1.jpg (from IT之家)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ✓ aerospace_1.jpg (from IT之家)
+  ⏭ aerospace_2 (no image available)
+  ⏭ aerospace_3 (no image available)
+  ✓ products_1.jpg (from IT之家)
+  ✓ products_2.jpg (from IT之家)
+  ✓ products_3.jpg (from IT之家)
+  ✓ auto_1.jpg (from IT之家)
+  ✓ auto_2.jpg (from IT之家)
+  ✓ auto_3.jpg (from IT之家)
+  ✓ vc_1.jpg (from IT之家)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🔍 Checking images...
+✅ All images present and valid
+
+🚀 Committing and pushing...
