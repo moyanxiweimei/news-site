@@ -752,3 +752,135 @@ HTML dates updated
 ✅ All images present and valid
 
 🚀 Committing and pushing...
+[main eb31b95] 📰 Auto-update: 2026-05-23 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-3720.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 65 insertions(+)
+fatal: unable to access 'https://github.com/moyanxiweimei/news-site.git/': Failed to connect to github.com port 443 after 75003 ms: Couldn't connect to server
+Push failed
+
+✅ Done! Updated at 08:01:22
+🌐 Site: https://moyanxiweimei.github.io/news-site/
+fatal: unable to access 'https://github.com/moyanxiweimei/news-site.git/': Error in the HTTP2 framing layer
+Push failed
+
+✅ Done! Updated at 08:01:34
+🌐 Site: https://moyanxiweimei.github.io/news-site/
+=== 📰 Daily News Update - 2026-05-24 08:00 ===
+Today: 2026年5月24日
+
+📡 Fetching news from IT之家...
+=== 📰 Daily News Update - 2026-05-24 08:00 ===
+Today: 2026年5月24日
+
+📡 Fetching news from IT之家...
+Categorized 40 news items
+  finance: 9 items
+  tech: 22 items
+  medical: 1 items
+  education: 0 items
+  aerospace: 1 items
+  products: 6 items
+  auto: 1 items
+  vc: 0 items
+Categorized 40 news items
+  finance: 9 items
+  tech: 22 items
+  medical: 1 items
+  education: 0 items
+  aerospace: 1 items
+  products: 6 items
+  auto: 1 items
+  vc: 0 items
+
+📝 Updating index.html...
+
+📝 Updating index.html...
+📝 Updating dates...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+HTML dates updated
+
+🖼️ Downloading images...
+  ✓ finance_1.jpg (from IT之家)
+  ✓ finance_2.jpg (from IT之家)
+  ✓ finance_3.jpg (from IT之家)
+  ✓ tech_1.jpg (from IT之家)
+  ✓ tech_2.jpg (from IT之家)
+  ✓ tech_3.jpg (from IT之家)
+  ✓ medical_1.jpg (from IT之家)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ⏭ education_1 (no image available)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ✓ aerospace_1.jpg (from IT之家)
+  ⏭ aerospace_2 (no image available)
+  ⏭ aerospace_3 (no image available)
+  ✓ products_1.jpg (from IT之家)
+  ✓ products_2.jpg (from IT之家)
+  ✓ products_3.jpg (from IT之家)
+  ✓ auto_1.jpg (from IT之家)
+  ⏭ auto_2 (no image available)
+  ⏭ auto_3 (no image available)
+  ⏭ vc_1 (no image available)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🔍 Checking images...
+  ✓ finance_1.jpg (from IT之家)
+  ✓ finance_2.jpg (from IT之家)
+  ✓ finance_3.jpg (from IT之家)
+  ✓ tech_1.jpg (from IT之家)
+  ✓ tech_2.jpg (from IT之家)
+  ✓ tech_3.jpg (from IT之家)
+  ✓ medical_1.jpg (from IT之家)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ⏭ education_1 (no image available)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ✓ aerospace_1.jpg (from IT之家)
+  ⏭ aerospace_2 (no image available)
+  ⏭ aerospace_3 (no image available)
+  ✓ products_1.jpg (from IT之家)
+  ✓ products_2.jpg (from IT之家)
+  ✓ products_3.jpg (from IT之家)
+  ✓ auto_1.jpg (from IT之家)
+  ⏭ auto_2 (no image available)
+  ⏭ auto_3 (no image available)
+  ⏭ vc_1 (no image available)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+✅ All images present and valid
+
+🚀 Committing and pushing...
+
+🔍 Checking images...
+✅ All images present and valid
+
+🚀 Committing and pushing...
+fatal: Unable to create '/Users/maxiaoxu/.openclaw/workspace/news-site/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
