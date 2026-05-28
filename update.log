@@ -1386,3 +1386,54 @@ HTML dates updated
 ✅ All images present and valid
 
 🚀 Committing and pushing...
+[main 5c5e560] 📰 Auto-update: 2026-05-28 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-4187.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 15 files changed, 104 insertions(+), 15 deletions(-)
+To https://github.com/moyanxiweimei/news-site.git
+   92e8f9c..5c5e560  main -> main
+
+✅ Done! Updated at 08:00:43
+🌐 Site: https://moyanxiweimei.github.io/news-site/
+  ✓ finance_1.jpg (from IT之家)
+  ✓ finance_2.jpg (from IT之家)
+  ✓ finance_3.jpg (from IT之家)
+  ✓ tech_1.jpg (from IT之家)
+  ✓ tech_2.jpg (from IT之家)
+  ✓ tech_3.jpg (from IT之家)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ⏭ education_1 (no image available)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ⏭ aerospace_1 (no image available)
+  ⏭ aerospace_2 (no image available)
+  ⏭ aerospace_3 (no image available)
+  ✓ products_1.jpg (from IT之家)
+  ✓ products_2.jpg (from IT之家)
+  ✓ products_3.jpg (from IT之家)
+  ✓ auto_1.jpg (from IT之家)
+  ✓ auto_2.jpg (from IT之家)
+  ✓ auto_3.jpg (from IT之家)
+  ✓ vc_1.jpg (from IT之家)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🔍 Checking images...
+✅ All images present and valid
+
+🚀 Committing and pushing...
