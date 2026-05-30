@@ -1576,3 +1576,91 @@ Push failed
 ✅ All images present and valid
 
 🚀 Committing and pushing...
+[main 8e661a6] 📰 Auto-update: 2026-05-29 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-4187.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 50 insertions(+)
+To https://github.com/moyanxiweimei/news-site.git
+   5c5e560..8e661a6  main -> main
+
+✅ Done! Updated at 08:01:30
+🌐 Site: https://moyanxiweimei.github.io/news-site/
+=== 📰 Daily News Update - 2026-05-30 08:00 ===
+Today: 2026年5月30日
+
+📡 Fetching news from IT之家...
+Categorized 40 news items
+  finance: 3 items
+  tech: 21 items
+  medical: 0 items
+  education: 0 items
+  aerospace: 3 items
+  products: 13 items
+  auto: 0 items
+  vc: 0 items
+
+📝 Updating index.html...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+=== 📰 Daily News Update - 2026-05-30 08:00 ===
+Today: 2026年5月30日
+
+📡 Fetching news from IT之家...
+Categorized 40 news items
+  finance: 3 items
+  tech: 21 items
+  medical: 0 items
+  education: 0 items
+  aerospace: 3 items
+  products: 13 items
+  auto: 0 items
+  vc: 0 items
+
+📝 Updating index.html...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+  ✓ finance_1.jpg (from IT之家)
+  ⏭ finance_2 (no image available)
+  ✓ finance_3.jpg (from IT之家)
+  ✓ tech_1.jpg (from IT之家)
+  ⏭ tech_2 (no image available)
+  ✓ tech_3.jpg (from IT之家)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ⏭ education_1 (no image available)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ⏭ aerospace_1 (no image available)
+  ✓ aerospace_2.jpg (from IT之家)
+  ⏭ aerospace_3 (no image available)
+  ✓ products_1.jpg (from IT之家)
+  ✓ products_2.jpg (from IT之家)
+  ✓ products_3.jpg (from IT之家)
+  ⏭ auto_1 (no image available)
+  ⏭ auto_2 (no image available)
+  ⏭ auto_3 (no image available)
+  ⏭ vc_1 (no image available)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🔍 Checking images...
+✅ All images present and valid
+
+🚀 Committing and pushing...
