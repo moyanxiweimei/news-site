@@ -1664,3 +1664,48 @@ HTML dates updated
 ✅ All images present and valid
 
 🚀 Committing and pushing...
+[main 9f3aefb] 📰 Auto-update: 2026-05-30 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-4318.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 103 insertions(+), 15 deletions(-)
+  ✓ finance_1.jpg (from IT之家)
+  ⏭ finance_2 (no image available)
+  ✓ finance_3.jpg (from IT之家)
+  ✓ tech_1.jpg (from IT之家)
+  ⏭ tech_2 (no image available)
+  ✓ tech_3.jpg (from IT之家)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ⏭ education_1 (no image available)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ⏭ aerospace_1 (no image available)
+  ✓ aerospace_2.jpg (from IT之家)
+  ⏭ aerospace_3 (no image available)
+  ✓ products_1.jpg (from IT之家)
+  ✓ products_2.jpg (from IT之家)
+  ✓ products_3.jpg (from IT之家)
+  ⏭ auto_1 (no image available)
+  ⏭ auto_2 (no image available)
+  ⏭ auto_3 (no image available)
+  ⏭ vc_1 (no image available)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🔍 Checking images...
+✅ All images present and valid
+
+🚀 Committing and pushing...
