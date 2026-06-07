@@ -2680,3 +2680,94 @@ Push failed
 ✅ All images present and valid
 
 🚀 Committing and pushing...
+[main 5df94d1] 📰 Auto-update: 2026-06-06 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-4674.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 50 insertions(+)
+error: RPC failed; curl 55 Send failure: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+Push failed
+
+✅ Done! Updated at 08:02:34
+🌐 Site: https://moyanxiweimei.github.io/news-site/
+=== 📰 Daily News Update - 2026-06-07 08:00 ===
+Today: 2026年6月7日
+
+📡 Fetching news from IT之家...
+Categorized 40 news items
+  finance: 0 items
+  tech: 28 items
+  medical: 0 items
+  education: 1 items
+  aerospace: 1 items
+  products: 8 items
+  auto: 2 items
+  vc: 0 items
+
+📝 Updating index.html...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+=== 📰 Daily News Update - 2026-06-07 08:00 ===
+Today: 2026年6月7日
+
+📡 Fetching news from IT之家...
+Categorized 40 news items
+  finance: 0 items
+  tech: 28 items
+  medical: 0 items
+  education: 1 items
+  aerospace: 1 items
+  products: 8 items
+  auto: 2 items
+  vc: 0 items
+
+📝 Updating index.html...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+  ⏭ finance_1 (no image available)
+  ⏭ finance_2 (no image available)
+  ⏭ finance_3 (no image available)
+  ✓ tech_1.jpg (from IT之家)
+  ✓ tech_2.jpg (from IT之家)
+  ✓ tech_3.jpg (from IT之家)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ⏭ education_1 (no image available)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ✓ aerospace_1.jpg (from IT之家)
+  ⏭ aerospace_2 (no image available)
+  ⏭ aerospace_3 (no image available)
+  ✓ products_1.jpg (from IT之家)
+  ✓ products_2.jpg (from IT之家)
+  ✓ products_3.jpg (from IT之家)
+  ✓ auto_1.jpg (from IT之家)
+  ✓ auto_2.jpg (from IT之家)
+  ⏭ auto_3 (no image available)
+  ⏭ vc_1 (no image available)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🔍 Checking images...
+✅ All images present and valid
+
+🚀 Committing and pushing...
