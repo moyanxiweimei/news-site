@@ -4967,3 +4967,53 @@ HTML dates updated
 ✅ All images present and valid
 
 🚀 Committing and pushing...
+[main 8365165] 📰 Auto-update: 2026-06-23 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-4812.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 13 files changed, 103 insertions(+), 15 deletions(-)
+fatal: could not read Username for 'https://github.com': Device not configured
+Push failed
+
+✅ Done! Updated at 08:00:20
+🌐 Site: https://moyanxiweimei.github.io/news-site/
+  ✓ finance_1.jpg (from IT之家)
+  ✓ finance_2.jpg (from IT之家)
+  ✓ finance_3.jpg (from IT之家)
+  ✓ tech_1.jpg (from IT之家)
+  ✓ tech_2.jpg (from IT之家)
+  ✓ tech_3.jpg (from IT之家)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ⏭ education_1 (no image available)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ⏭ aerospace_1 (no image available)
+  ⏭ aerospace_2 (no image available)
+  ⏭ aerospace_3 (no image available)
+  ✓ products_1.jpg (from IT之家)
+  ✓ products_2.jpg (from IT之家)
+  ✓ products_3.jpg (from IT之家)
+  ✓ auto_1.jpg (from IT之家)
+  ✓ auto_2.jpg (from IT之家)
+  ⏭ auto_3 (no image available)
+  ⏭ vc_1 (no image available)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🔍 Checking images...
+✅ All images present and valid
+
+🚀 Committing and pushing...
