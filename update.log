@@ -5017,3 +5017,83 @@ Push failed
 ✅ All images present and valid
 
 🚀 Committing and pushing...
+[main 96f2ad0] 📰 Auto-update: 2026-06-23 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-4812.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 50 insertions(+)
+To https://github.com/moyanxiweimei/news-site.git
+   cf89956..96f2ad0  main -> main
+
+✅ Done! Updated at 08:00:40
+🌐 Site: https://moyanxiweimei.github.io/news-site/
+=== 📰 Daily News Update - 2026-06-24 08:00 ===
+Today: 2026年6月24日
+
+📡 Fetching news from IT之家...
+=== 📰 Daily News Update - 2026-06-24 08:00 ===
+Today: 2026年6月24日
+
+📡 Fetching news from IT之家...
+Traceback (most recent call last):
+  File "<stdin>", line 8, in <module>
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/xml/etree/ElementTree.py", line 1229, in parse
+    tree.parse(source, parser)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/xml/etree/ElementTree.py", line 580, in parse
+    self._root = parser._parse_whole(source)
+xml.etree.ElementTree.ParseError: no element found: line 387, column 2
+Categorized 40 news items
+  finance: 8 items
+  tech: 19 items
+  medical: 0 items
+  education: 0 items
+  aerospace: 2 items
+  products: 7 items
+  auto: 3 items
+  vc: 1 items
+
+📝 Updating index.html...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+  ✓ finance_1.jpg (from IT之家)
+  ⏭ finance_2 (no image available)
+  ✓ finance_3.jpg (from IT之家)
+  ✓ tech_1.jpg (from IT之家)
+  ✓ tech_2.jpg (from IT之家)
+  ✓ tech_3.jpg (from IT之家)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ⏭ education_1 (no image available)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ✓ aerospace_1.jpg (from IT之家)
+  ✓ aerospace_2.jpg (from IT之家)
+  ⏭ aerospace_3 (no image available)
+  ✓ products_1.jpg (from IT之家)
+  ✓ products_2.jpg (from IT之家)
+  ✓ products_3.jpg (from IT之家)
+  ✓ auto_1.jpg (from IT之家)
+  ✓ auto_2.jpg (from IT之家)
+  ✓ auto_3.jpg (from IT之家)
+  ✓ vc_1.jpg (from IT之家)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🔍 Checking images...
+✅ All images present and valid
+
+🚀 Committing and pushing...
