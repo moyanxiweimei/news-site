@@ -5718,3 +5718,67 @@ HTML dates updated
 ✅ All images present and valid
 
 🚀 Committing and pushing...
+[main 8576522] 📰 Auto-update: 2026-06-29 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-4888.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 15 files changed, 84 insertions(+), 15 deletions(-)
+=== 📰 Daily News Update - 2026-06-29 08:00 ===
+Today: 2026年6月29日
+
+📡 Fetching news from IT之家...
+Categorized 40 news items
+  finance: 2 items
+  tech: 19 items
+  medical: 0 items
+  education: 1 items
+  aerospace: 2 items
+  products: 13 items
+  auto: 2 items
+  vc: 1 items
+
+📝 Updating index.html...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+  ✓ finance_1.jpg (from IT之家)
+  ✓ finance_2.jpg (from IT之家)
+  ⏭ finance_3 (no image available)
+  ✓ tech_1.jpg (from IT之家)
+  ✓ tech_2.jpg (from IT之家)
+  ✓ tech_3.jpg (from IT之家)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ✓ education_1.jpg (from IT之家)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ✓ aerospace_1.jpg (from IT之家)
+  ✓ aerospace_2.jpg (from IT之家)
+  ⏭ aerospace_3 (no image available)
+  ✓ products_1.jpg (from IT之家)
+  ✓ products_2.jpg (from IT之家)
+  ✓ products_3.jpg (from IT之家)
+  ✓ auto_1.jpg (from IT之家)
+  ✓ auto_2.jpg (from IT之家)
+  ⏭ auto_3 (no image available)
+  ⏭ vc_1 (no image available)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🔍 Checking images...
+✅ All images present and valid
+
+🚀 Committing and pushing...
