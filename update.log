@@ -8340,3 +8340,72 @@ HTML dates updated
 ✅ All images present and valid
 
 🚀 Committing and pushing...
+[main 7cb3756] 📰 Auto-update: 2026-07-18 daily news
+ Committer: 马晓旭 <maxiaoxu@maxiaoxudeMac-mini-4888.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 84 insertions(+), 15 deletions(-)
+fatal: could not read Username for 'https://github.com': Device not configured
+Push failed
+
+✅ Done! Updated at 08:00:04
+🌐 Site: https://moyanxiweimei.github.io/news-site/
+=== 📰 Daily News Update - 2026-07-18 08:00 ===
+Today: 2026年7月18日
+
+📡 Fetching news from IT之家...
+Categorized 40 news items
+  finance: 3 items
+  tech: 32 items
+  medical: 0 items
+  education: 1 items
+  aerospace: 1 items
+  products: 0 items
+  auto: 3 items
+  vc: 0 items
+
+📝 Updating index.html...
+📝 Updating dates...
+HTML dates updated
+
+🖼️ Downloading images...
+  ✓ finance_1.jpg (from IT之家)
+  ⏭ finance_2 (no image available)
+  ⏭ finance_3 (no image available)
+  ✓ tech_1.jpg (from IT之家)
+  ✓ tech_2.jpg (from IT之家)
+  ✓ tech_3.jpg (from IT之家)
+  ⏭ medical_1 (no image available)
+  ⏭ medical_2 (no image available)
+  ⏭ medical_3 (no image available)
+  ✓ education_1.jpg (from IT之家)
+  ⏭ education_2 (no image available)
+  ⏭ education_3 (no image available)
+  ✓ aerospace_1.jpg (from IT之家)
+  ⏭ aerospace_2 (no image available)
+  ⏭ aerospace_3 (no image available)
+  ⏭ products_1 (no image available)
+  ⏭ products_2 (no image available)
+  ⏭ products_3 (no image available)
+  ✓ auto_1.jpg (from IT之家)
+  ⏭ auto_2 (no image available)
+  ✓ auto_3.jpg (from IT之家)
+  ⏭ vc_1 (no image available)
+  ⏭ vc_2 (no image available)
+  ⏭ vc_3 (no image available)
+
+🔄 Busting cache...
+
+🔍 Checking images...
+✅ All images present and valid
+
+🚀 Committing and pushing...
